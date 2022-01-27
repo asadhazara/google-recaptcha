@@ -1,0 +1,15 @@
+{
+  "name": "@fiction/server",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "type": "module",
+  "imports": {
+    "#app/*": "./build/*"
+  },
+  "devDependencies": {
+    "typescript": "4.5.4"
+  },
+  "engines": {
+    "node": ">= 16"
+  }
+}

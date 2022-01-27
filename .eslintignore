@@ -1,0 +1,8 @@
+# node dependencies
+node_modules
+
+# nextjs compiled files
+.next
+
+# any dist
+build

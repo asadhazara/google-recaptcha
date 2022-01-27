@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2017", "dom"],
+    "module": "es2022",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "build",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "target": "es2021",
+    "baseUrl": "src",
+    "paths": { "#app/*": ["*"] }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
